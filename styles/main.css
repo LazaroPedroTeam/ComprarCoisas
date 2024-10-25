@@ -3,6 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: 'Roboto';
+    src:  local(Roboto), url('../fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Rowdies';
+    src:  local(Rowdies), url('../fonts/Rowdies/Rowdies-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Irish';
+    src:  local(IrishGrover), url('../fonts/Irish_Grover/IrishGrover-Regular.ttf') format('truetype');
+}
+
 :root{
-    --cor-principal: #ffffff;
+    --cor-principal: #7B00E5;
+    --cor-secundaria: #BD9CF4;
+    --branco: #ffffff;
+    --preto: #000000;
+
+
+    --fonte-texto: 'Roboto', arial;
+    --fonte-titulo: 'Irish', arial;
+    --fonte-categorias: 'Rowdies', arial;
 }
