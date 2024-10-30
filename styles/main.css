@@ -10,7 +10,10 @@
     font-family: 'Irish';
     src:  local(IrishGrover), url('../fonts/Irish_Grover/IrishGrover-Regular.ttf') format('truetype');
 }
-
+@font-face {
+    font-family: 'Rowdies-light';
+    src:  local(Rowdies), url('../fonts/Rowdies/Rowdies-Light.ttf') format('truetype');
+}
 :root{
     --cor-principal: #7B00E5;
     --cor-secundaria: #BD9CF4;
